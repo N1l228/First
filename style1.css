@@ -1,0 +1,65 @@
+.background {
+    position: fixed;
+    width: 200%;
+    height: 200%;
+    top: -50%;
+    left: -50%;
+    z-index: -1;
+}
+
+.background img{
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    min-width: 50%;
+    min-height: 50%
+}
+
+.Login{
+    width: 260px;
+    height: 350px;
+    text-align: center;
+    background: rgba(0,0,0,0.5);
+    border-radius: 10;
+    margin-top: 15%;
+    margin-left: 40%;
+}
+
+.Login h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    margin-top: 10%;
+}
+
+.Login input{
+    width: 190px;
+    height: 35px;
+    border-radius: 7px;
+    border: none;
+    margin-top: 20px;
+}
+
+.Logn button{
+    width: 190px;
+    height: 35px;
+    margin-top: 20px;
+    background: #39c;
+    border-radius: 7px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.Login a{
+    color: #fff;
+    text-align: center;
+}
+
+.Login p{
+    color: #fff;
+}
+
